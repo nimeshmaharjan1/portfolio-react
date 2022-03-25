@@ -6,14 +6,14 @@ const HeaderSocials = () => {
   const blankTarget = "_blank";
   return (
     <div className="header-socials">
-      <a href="linkedin.com/nimeshmaharjan1" target={blankTarget}>
+      <a href="https://linkedin.com/nimeshmaharjan1" target={blankTarget}>
         {" "}
         <FaLinkedin />
       </a>
-      <a href="github.com/nimeshmaharjan1" target={blankTarget}>
+      <a href="https://github.com/nimeshmaharjan1" target={blankTarget}>
         <FaGithub />
       </a>
-      <a href="instagram.com/nimeshmaharjan1" target={blankTarget}>
+      <a href="https://instagram.com/nimeshmaharjan1" target={blankTarget}>
         <FaInstagram />
       </a>
     </div>
