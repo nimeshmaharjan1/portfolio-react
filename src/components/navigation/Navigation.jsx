@@ -5,6 +5,7 @@ import { RiServiceLine } from "react-icons/ri";
 import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 import { BiMessageSquareDots } from "react-icons/bi";
+import { CgCodeSlash } from "react-icons/cg";
 import { useState } from "react";
 const Navigation = () => {
   const [activeNav, setActiveNav] = useState("#");
@@ -28,13 +29,40 @@ const Navigation = () => {
       >
         <AiOutlineUser />
       </a>
-      <a href="#experience">
+      <a
+        href="#experience"
+        className={activeNav === "#experience" ? "active" : ""}
+        onClick={() => {
+          setActiveNav("#experience");
+        }}
+      >
         <BiBook />
       </a>
-      <a href="#services">
+      <a
+        href="#portfolio"
+        className={activeNav === "#portfolio" ? "active" : ""}
+        onClick={() => {
+          setActiveNav("#portfolio");
+        }}
+      >
+        <CgCodeSlash />
+      </a>
+      <a
+      className={activeNav === "#services" ? "active" : ""}
+        href="#services"
+        onClick={() => {
+          setActiveNav("#services");
+        }}
+      >
         <RiServiceLine />
       </a>
-      <a href="#contact">
+      <a
+      className={activeNav === "#contact" ? "active" : ""}
+        href="#contact"
+        onClick={() => {
+          setActiveNav("#contact");
+        }}
+      >
         <BiMessageSquareDots />
       </a>
     </nav>
