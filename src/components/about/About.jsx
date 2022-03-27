@@ -31,11 +31,16 @@ const About = () => {
               <small>20+</small>
             </article>
           </div>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam
-            placeat possimus, corrupti amet beatae impedit fugiat rem ab
-            reprehenderit consequatur iste incidunt, consectetur error tempora
-            excepturi ipsum magni laboriosam corporis.
+          <p className="text-justify">
+            Experienced Web Developer adept in all stages of advanced web
+            development. Knowledgeable in user interface along with debugging
+            processes. Bringing forth expertise in design, installation and
+            maintenance of web systems. Equipped with a diverse and promising
+            skill-set. Proficient in an assortment of technologies, including
+            Angular, React JS, Bootstrap, Version Control (Github / Gitlab),
+            Spring Framework, ASP.NET Core, Node, MYSQL, ORACLE and Microsoft
+            SQL Server. Able to effectively self-manage during independent
+            projects, as well as collaborate in a team setting.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
