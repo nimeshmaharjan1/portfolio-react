@@ -2,7 +2,8 @@ import React from "react";
 import "./Portfolio.scss";
 import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio6.jpg";
+import IMG3 from "../../assets/portfolio2.jpg";
+import IMG4 from "../../assets/luxterior.jpg";
 const Portfolio = () => {
   const data = [
     {
@@ -24,6 +25,13 @@ const Portfolio = () => {
       image: IMG3,
       title: "Web-based Ecommerce Application with React and Express",
       github: "https://github.com/nimeshmaharjan1/ecommerce-react-front-end",
+    },
+    {
+      id: 4,
+      image: IMG4,
+      title: "Landing Page with Animations for Luxterior",
+      github:
+        "https://nimeshmaharjan1.github.io/islington-landing-page-prototye/",
     },
   ];
   return (
