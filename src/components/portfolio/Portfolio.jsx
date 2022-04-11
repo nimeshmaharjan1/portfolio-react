@@ -31,7 +31,7 @@ const Portfolio = () => {
       image: IMG4,
       title: "Landing Page with Animations for Luxterior",
       github:
-        "https://nimeshmaharjan1.github.io/islington-landing-page-prototye/",
+        "https://nimeshmaharjan1.github.io/islington-landing-page-prototype/",
     },
   ];
   return (
